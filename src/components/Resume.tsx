@@ -3,7 +3,7 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Download, Briefcase, GraduationCap, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import cvFile from "@/assets/Ahmad_CV.pdf";
+import cvFile from "@/assets/Ahmad_resume.pdf";
 
 const Resume = () => {
   const ref = useRef(null);

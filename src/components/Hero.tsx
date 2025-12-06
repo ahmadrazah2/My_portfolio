@@ -3,7 +3,7 @@ import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profileImg from "@/assets/profile.jpg";
 import heroBg from "@/assets/hero-bg.jpg";
-import cvFile from "@/assets/Ahmad_CV.pdf";
+import cvFile from "@/assets/Ahmad_resume.pdf";
 
 const Hero = () => {
   const skills = [
