@@ -11,6 +11,7 @@ import {
   Database,
   GitBranch,
   Terminal,
+  Languages,
 } from "lucide-react";
 
 const Skills = () => {
@@ -61,6 +62,15 @@ const Skills = () => {
         "Kaggle",
         "VS Code",
         "PyCharm",
+      ],
+    },
+    {
+      title: "Languages",
+      icon: Languages,
+      skills: [
+        "English: Fluent",
+        "Urdu: Native",
+        "Korean: Basic (KIIP level 4)",
       ],
     },
   ];
