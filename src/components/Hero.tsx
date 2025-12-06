@@ -25,7 +25,7 @@ const Hero = () => {
     // Create a link element to trigger download
     const link = document.createElement('a');
     link.href = cvFile;
-    link.download = 'Ahmad_Raza_CV.pdf'; // Name of the downloaded file
+    link.download = 'Ahmad_resume.pdf'; // Name of the downloaded file
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
